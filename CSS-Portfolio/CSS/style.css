@@ -1,0 +1,81 @@
+/* 
+https://coolors.co/7180ac-2b4570-ebebd3-2c6e49-131200
+CSS HEX 
+--glaucous: #7180acff;
+--marian-blue: #2b4570ff;
+--beige: #ebebd3ff;
+--dark-spring-green: #2c6e49ff;
+--smoky-black: #131200ff;
+
+CSS HSL 
+--glaucous: hsla(225, 26%, 56%, 1);
+--marian-blue: hsla(217, 45%, 30%, 1);
+--beige: hsla(60, 37%, 87%, 1);
+--dark-spring-green: hsla(146, 43%, 30%, 1);
+--smoky-black: hsla(57, 100%, 4%, 1);
+
+$glaucous: rgba(113, 128, 172, 1);
+$marian-blue: rgba(43, 69, 112, 1);
+$beige: rgba(235, 235, 211, 1);
+$dark-spring-green: rgba(44, 110, 73, 1);
+$smoky-black: rgba(19, 18, 0, 1);
+*/
+
+/* Global styles ------------------------------------------------------- */
+
+body {
+    color: #ebebd3ff;
+}
+
+a {
+    color: lightgreen
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* Profile ------------------------------------------------------- */
+
+header {
+    background: #2b4570ff;
+}
+
+/* Projects ------------------------------------------------------- */
+
+.projects {
+    background:  #7180acff;
+}
+
+.projects a {
+    color: #2b4570ff;
+}
+
+.projects .btn {
+    background: #2b4570ff;
+    color: #ebebd3ff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(43, 69, 112, 80%);
+}
+/* Work Experience ------------------------------------------------------- */
+
+.work-experience {
+    background: #2c6e49ff;
+}
+
+/* Education ------------------------------------------------------- */
+
+.education {
+    background: steelblue
+}
+
+/* footer ------------------------------------------------------- */
+
+footer {
+    background: #131200ff;
+    color: #ebebd3ff;
+}
